@@ -1,0 +1,83 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 30px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #6a11cb;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.scrolled {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+section {
+    padding: 100px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#home {
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#services {
+    height: 100vh;
+    background-color: #e2e2e2;
+}
+
+#about {
+    height: 100vh;
+    background-color: #ccc;
+}
+
+#contact {
+    height: 100vh;
+    background-color: #aaa;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+}
